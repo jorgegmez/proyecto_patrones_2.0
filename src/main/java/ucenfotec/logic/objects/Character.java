@@ -2,7 +2,6 @@ package ucenfotec.logic.objects;
 
 import java.util.ArrayList;
 
-import com.ucenfotec.patrones.logic.Enemy;
 
 
 public class Character implements IAbility, IAttack {
