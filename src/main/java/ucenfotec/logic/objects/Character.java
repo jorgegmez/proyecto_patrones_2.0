@@ -12,6 +12,8 @@ public class Character implements IAbility, IAttack {
 	private ArrayList<Item> myItems;
 	private ArrayList<Mission> myMissions;
 	
+	public Character() {}
+	
 	public Character(String pName, int pHealth, int pExperience, int pPower) {
 		this.setName(pName);
 		this.setHealth(pHealth);
