@@ -13,7 +13,6 @@ public class Character implements IAbility, IAttack {
 	private ArrayList<Item> myItems;
 	private ArrayList<Mission> myMissions;
 	
-	public Character() {}
 	
 	public Character(String pName, int pHealth, int pExperience, int pPower) {
 		this.setName(pName);
@@ -21,6 +20,8 @@ public class Character implements IAbility, IAttack {
 		this.setExperience(pExperience);
 		this.setPower(pPower);
 	}
+	
+	public Character() {}
 	
 	public Item getObject() {
 		return null;//Refactorizar después
