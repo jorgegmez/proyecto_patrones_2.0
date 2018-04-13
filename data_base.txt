@@ -1,1 +1,0 @@
-com.microsoft.sqlserver.jdbc.SQLServerDriver,jdbc:sqlserver://DESKTOP-L7RP8JT;databaseName=db_proyecto_oop;integratedSecurity=true
