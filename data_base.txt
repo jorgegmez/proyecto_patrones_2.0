@@ -1,1 +1,1 @@
-com.microsoft.sqlserver.jdbc.SQLServerDriver,jdbc:sqlserver://DESKTOP-L7RP8JT;databaseName=db_proyecto_oop;integratedSecurity=true
+com.microsoft.sqlserver.jdbc.SQLServerDriver,jdbc:sqlserver://DESKTOP-H7D29ID;databaseName=db_proyecto_patrones;integratedSecurity=true

@@ -13,7 +13,7 @@ public class AccessDB {
 	private Statement st;
 	
 
-	public AccesoDB(String driver,String conexion) throws SQLException{
+	public AccessDB(String driver,String conexion) throws SQLException{
 		conn = DriverManager.getConnection(conexion);
 		st = conn.createStatement();
 	}
