@@ -2,6 +2,8 @@ package ucenfotec.logic.objects;
 
 import java.util.ArrayList;
 
+import com.ucenfotec.patrones.logic.Enemy;
+
 
 public class Character implements IAbility, IAttack {
 	
@@ -40,8 +42,10 @@ public class Character implements IAbility, IAttack {
 
 	@Override
 	public int attack() {
-		// TODO Auto-generated method stub
-		return 0;
+		Enemy enemy = new Enemy();
+		int myAttack = 0;
+		myAttack = enemy.getHealth() - getPower();
+		return myAttack;//Refactorizar
 	}
 
 	@Override
